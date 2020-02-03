@@ -63,7 +63,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>Tour dates 2</h2>
+          <h2>Tour dates</h2>
           <table class="table table-hover" itemscope itemtype="http://schema.org/Event" >
             <?php
 
