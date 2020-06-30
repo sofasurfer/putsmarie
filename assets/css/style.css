@@ -241,7 +241,13 @@ span.month{
 
 
 
-
+.stream-list a,
+.stream-list a:hover{
+  padding: 0px;
+  border: 0px;
+  border-bottom: none;
+  background-color: transparent!important;
+}
 
 
 
