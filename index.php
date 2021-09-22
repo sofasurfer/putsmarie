@@ -6,7 +6,14 @@
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner" role="listbox">
-                   <div class="item active">
+                    
+
+                    <div class="item active">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/96XuQZPov74" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                   <div class="item">
                       <div class="embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.youtube.com/embed/6NiOX__IYKs" frameborder="0" allowfullscreen></iframe>
                       </div>
@@ -67,27 +74,22 @@
           <table class="table table-hover" itemscope itemtype="http://schema.org/Event" >
             <?php
 
-            $url = 'http://tourdate.twogentlemen.net/json.php?id=413';
+            $url = 'https://www.yagwud.com/cms/wp-admin/admin-ajax.php?action=events_list&bid=putsmarie';
+            #$url = 'http://tourdate.twogentlemen.net/json.php?id=413';
+
             $content = file_get_contents($url);
             $json = json_decode($content, true);
 
-            // $url = __DIR__ . "/assets/data/shows.json";
-            // $content = file_get_contents($url);
-            // $jsonLocal = json_decode($content, true);
 
-            // $json = array();
-            // $json['shows'] = array_merge($jsonExternal['shows'],$jsonLocal['shows']);
-            usort($json['shows'], function($a, $b) {
-                return $a['show_date'] <=> $b['show_date'];
-            });
+            // usort($json['shows'], function($a, $b) {
+            //     return $a['show_date'] <=> $b['show_date'];
+            // });
+
+            error_log( print_r($json,true) );
 
             // Check if tours exist
             if( count($json['shows']) > 0 && !empty($json['shows'][0]) ){
               foreach($json['shows'] as $item) {
-                $item['event_link'] = $item['club_website'];
-                if( !empty($item['show_link'])){
-                  $item['event_link'] = $item['show_link'];
-                }
                 include 'tpl/tour-item.php';
               }    
             }else{
@@ -95,13 +97,24 @@
             }
             ?>
           </table>          
-          <center><p style="margin-top: 50px; margin-bottom: 50px;"><a title="Show past dates." class="buy france" href="tours.php">Show Past Shows</a></p></center>
+          <!--center><p style="margin-top: 50px; margin-bottom: 50px;"><a title="Show past dates." class="buy france" href="tours.php">Show Past Shows</a></p></center-->
         </div>
       </div>
 
       <div class="row">
         <h2>Records</h2>
-        <div class="col-md-6 bounce-up animation-element">
+        <div class="col-md-4 bounce-up animation-element">
+          <div class="subject">
+            <img class="img-responsive" src="/assets/images/loveboat2.jpg" alt="" />
+            <h3>Love Boat 2</h3>
+            <p>Streaming + Download <br/>
+            24 June 2020</p>
+            <div class="order">
+              <a title="Buy Love Boat 2 ||" class="buy" target="_blank" href="https://putsmarie.bandcamp.com/">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/catchingbadtemper_3.jpg" alt="" />
             <h3>Catching Bad Temper</h3>
@@ -112,7 +125,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 bounce-up animation-element">
+        <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/masochI-II.jpg" alt="" />
             <h3>Masoch I-II</h3>

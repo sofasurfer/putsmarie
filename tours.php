@@ -7,8 +7,19 @@
             <?php
             $url = 'http://tourdate.twogentlemen.net/json.php?id=413&past';
             $content = file_get_contents($url);
-            $json = json_decode($content, true);
+            $jsonExternal = json_decode($content, true);
 
+            $url = __DIR__ . "/assets/data/shows.json";
+            $content = file_get_contents($url);
+            $jsonLocal = json_decode($content, true);
+
+            $json = array();
+            $json['shows'] = array_merge($jsonExternal['shows'],$jsonLocal['shows']);
+
+            usort($json['shows'], function($a, $b) {
+                return $a['show_date'] <=> $b['show_date'];
+            });
+                        
             // Check if tours exist
             if( count($json['shows']) > 0 && !empty($json['shows'][0]) ){
                 foreach($json['shows'] as $item) {

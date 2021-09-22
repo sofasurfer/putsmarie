@@ -103,6 +103,15 @@ td.venue{
     vertical-align: middle !important;
 }
 
+td.location h3{
+    margin-top:  0px;
+}
+
+td.location a,
+td.venue a{
+    padding:  0px;
+}
+
 .location-small{
     display: none;
 }        
