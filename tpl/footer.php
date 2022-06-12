@@ -2,7 +2,7 @@
             <div class="row">
               <div class="col-md-4">
                 <h2 class="no-padding">Booking</h2>
-                <p><a href="http://twogentlemen.net/band/413" data-toggle="tooltip" data-placement="bottom" title="For bookings and other inquiries, please contact Two Gentlemen" target="_blank"><img src="/assets/images/twogentelmen-logo.png" alt="Two Gentlemen" /></a></p>
+                <p><a href="mailto:info@putsmarie.com" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="For bookings and other inquiries" target="_blank">info@putsmarie.com</a></p>
               </div>
               <div class="col-md-4">
                 <h2 class="no-padding">Music</h2>

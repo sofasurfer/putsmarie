@@ -105,6 +105,17 @@
         <h2>Records</h2>
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
+            <img class="img-responsive" src="/assets/images/PutsMarieMusiqueImprovisee-front.png" alt="" />
+            <h3>PUTS MARIE Musique improvisee</h3>
+            <p>2LP<br/>
+            12 June 2022</p>
+            <div class="order">
+              <a title="Buy Love Boat 2 ||" class="buy" target="_blank" href="https://plattfon.ch/PUTS-MARIE-Musique-improvisee">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 bounce-up animation-element">
+          <div class="subject">
             <img class="img-responsive" src="/assets/images/loveboat2.jpg" alt="" />
             <h3>Love Boat 2</h3>
             <p>Streaming + Download <br/>
