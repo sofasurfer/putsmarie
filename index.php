@@ -1,4 +1,4 @@
-    <?php include 'tpl/header.php'; ?>
+x§    <?php include 'tpl/header.php'; ?>
     <div class="container-fluid ">
         <div class="row">
                 <h2 >Videos</h2>
@@ -132,7 +132,7 @@
             <p>CD / LP & Digital Download<br/>
             28 September 2018</p>
             <div class="order">
-              <a title="Buy Catching Bad Temper ||" class="buy" target="_blank" href="https://store.twogentlemen.net/en/287-catching-bad-temper">Buy</a>
+              <a title="Buy Catching Bad Temper ||" class="buy" target="_blank" href="https://www.exlibris.ch/de/musik/vinyl-schallplatten/puts-marie/catching-bad-temper/id/7640153369024">Buy</a>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@
             <p>CD / LP & Digital Download<br/>
             25 September 2015</p>
             <div class="order">
-              <a title="Buy Masoch ||" class="buy" target="_blank" href="http://store.twogentlemen.net/en/268-masoch-i-ii">Buy</a>
+              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://www.exlibris.ch/de/musik/vinyl-schallplatten/puts-marie/masoch-i-ii-2x10cd/id/3700398714219">Buy</a>
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@
             <p>Vinyl 10'' & Digital<br/>
             25 September 2015</p>
             <div class="order">
-              <a title="Buy Masoch ||" class="buy" target="_blank" href="http://store.twogentlemen.net/267-masoch-ii">Buy</a>
+              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://www.exlibris.ch/de/musik/vinyl-schallplatten/puts-marie/masoch-ii-ep-10cd/id/7640157611457">Buy</a>
             </div>
           </div>
         </div>
