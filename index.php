@@ -1,14 +1,18 @@
-x§    <?php include 'tpl/header.php'; ?>
+    <?php include 'tpl/header.php'; ?>
     <div class="container-fluid ">
         <div class="row">
-                <h2 >Videos</h2>
+                <h2>Videos</h2>
                 <div id="carousel-example-generic" class="carousel slide" data-interval="false" data-ride="carousel">
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner" role="listbox">
                     
-
                     <div class="item active">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/IZfEbXRXt9c" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="item">
                       <div class="embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.youtube.com/embed/96XuQZPov74" frameborder="0" allowfullscreen></iframe>
                       </div>
@@ -132,7 +136,7 @@ x§    <?php include 'tpl/header.php'; ?>
             <p>CD / LP & Digital Download<br/>
             28 September 2018</p>
             <div class="order">
-              <a title="Buy Catching Bad Temper ||" class="buy" target="_blank" href="https://www.exlibris.ch/de/musik/vinyl-schallplatten/puts-marie/catching-bad-temper/id/7640153369024">Buy</a>
+              <a title="Buy Catching Bad Temper ||" class="buy" target="_blank" href="https://www.twogentlemen.net/products/catching-bad-temper/">Buy</a>
             </div>
           </div>
         </div>
@@ -143,7 +147,7 @@ x§    <?php include 'tpl/header.php'; ?>
             <p>CD / LP & Digital Download<br/>
             25 September 2015</p>
             <div class="order">
-              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://www.exlibris.ch/de/musik/vinyl-schallplatten/puts-marie/masoch-i-ii-2x10cd/id/3700398714219">Buy</a>
+              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://www.twogentlemen.net/products/masoch-i-ii/">Buy</a>
             </div>
           </div>
         </div>
@@ -154,7 +158,7 @@ x§    <?php include 'tpl/header.php'; ?>
             <p>Vinyl 10'' & Digital<br/>
             25 September 2015</p>
             <div class="order">
-              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://www.exlibris.ch/de/musik/vinyl-schallplatten/puts-marie/masoch-ii-ep-10cd/id/7640157611457">Buy</a>
+              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://www.twogentlemen.net/products/masoch-ii/">Buy</a>
             </div>
           </div>
         </div>
@@ -166,7 +170,7 @@ x§    <?php include 'tpl/header.php'; ?>
             10'' & Digital<br/>
             12 December 2013</p>
             <div class="order">
-              <a title="Buy Masoch" class="buy" target="_blank" href="http://store.twogentlemen.net/194-masoch">Buy</a>
+              <a title="Buy Masoch" class="buy" target="_blank" href="https://www.twogentlemen.net/products/masoch/">Buy</a>
             </div>
           </div>
         </div>        
@@ -177,7 +181,7 @@ x§    <?php include 'tpl/header.php'; ?>
             <p>Vinyl 7'' & Digital<br/>
             24 Oktober 2013</p>
             <div class="order">
-              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://store.twogentlemen.net/en/187-pornstar">Buy</a>
+              <a title="Buy Masoch ||" class="buy" target="_blank" href="https://www.twogentlemen.net/products/pornstar/">Buy</a>
             </div>
           </div>
         </div>          
