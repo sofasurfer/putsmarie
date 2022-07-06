@@ -109,7 +109,7 @@
         <h2>Records</h2>
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
-            <img class="img-responsive" src="/assets/images/PutsMarieMusiqueImprovisee-front.png" alt="" />
+            <img class="img-responsive" src="/assets/images/PutsMarieMusiqueImprovisee-front.png" alt="PUTS MARIE Musique improvisee" />
             <h3>PUTS MARIE Musique improvisee</h3>
             <p>2LP<br/>
             12 June 2022</p>
@@ -120,7 +120,18 @@
         </div>
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
-            <img class="img-responsive" src="/assets/images/loveboat2.jpg" alt="" />
+            <img class="img-responsive" src="/assets/images/dramedupastis_tape.jpg" alt="Le Drame Du Pastis" />
+            <h3>Le Drame Du Pastis</h3>
+            <p>Casette + Streaming + Download<br/>
+            17 March 2022</p>
+            <div class="order">
+              <a title="Le Drame Du Pastis" class="buy" target="_blank" href="https://putsmarietape.bandcamp.com/album/le-drame-du-pastis">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 bounce-up animation-element">
+          <div class="subject">
+            <img class="img-responsive" src="/assets/images/loveboat2.jpg" alt="Love Boat 2" />
             <h3>Love Boat 2</h3>
             <p>Streaming + Download <br/>
             24 June 2020</p>
@@ -131,7 +142,7 @@
         </div>
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
-            <img class="img-responsive" src="/assets/images/catchingbadtemper_3.jpg" alt="" />
+            <img class="img-responsive" src="/assets/images/catchingbadtemper_3.jpg" alt="Catching Bad Temper" />
             <h3>Catching Bad Temper</h3>
             <p>CD / LP & Digital Download<br/>
             28 September 2018</p>
@@ -142,7 +153,7 @@
         </div>
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
-            <img class="img-responsive" src="/assets/images/masochI-II.jpg" alt="" />
+            <img class="img-responsive" src="/assets/images/masochI-II.jpg" alt="Masoch I-II" />
             <h3>Masoch I-II</h3>
             <p>CD / LP & Digital Download<br/>
             25 September 2015</p>
@@ -153,7 +164,7 @@
         </div>
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
-            <img class="img-responsive" src="/assets/images/masochII.jpg" alt="" />
+            <img class="img-responsive" src="/assets/images/masochII.jpg" alt="Masoch II" />
             <h3>Masoch II</h3>
             <p>Vinyl 10'' & Digital<br/>
             25 September 2015</p>
@@ -164,7 +175,7 @@
         </div>
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
-            <img class="img-responsive" src="/assets/images/masoch.jpg" alt="" />
+            <img class="img-responsive" src="/assets/images/masoch.jpg" alt="Masoch" />
             <h3>Masoch</h3>
             <p>
             10'' & Digital<br/>
@@ -176,7 +187,7 @@
         </div>        
         <div class="col-md-4 bounce-up animation-element">
           <div class="subject">
-            <img class="img-responsive" src="/assets/images/pornostar.jpg" alt="" />
+            <img class="img-responsive" src="/assets/images/pornostar.jpg" alt="Pornstar" />
             <h3>Pornstar</h3>
             <p>Vinyl 7'' & Digital<br/>
             24 Oktober 2013</p>

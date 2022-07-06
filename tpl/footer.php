@@ -55,6 +55,10 @@
                     _paq.push(['trackGoal', 3]);
                     _paq.push(['trackEvent', 'links', 'linkticket', $(this).attr('href')]);                   
                 });
+                $('.buy').click(function() {
+                    _paq.push(['trackGoal', 4]);
+                    _paq.push(['trackEvent', 'links', $(this).attr('title'), $(this).attr('href')]);                   
+                });
             },
         };
         $(function() {
