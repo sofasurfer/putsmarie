@@ -77,19 +77,9 @@
           <h2>Tour dates</h2>
           <table class="table table-hover" itemscope itemtype="http://schema.org/Event" >
             <?php
-
             $url = 'https://www.yagwud.com/cms/wp-admin/admin-ajax.php?action=events_list&bid=putsmarie';
-            #$url = 'http://tourdate.twogentlemen.net/json.php?id=413';
-
             $content = file_get_contents($url);
             $json = json_decode($content, true);
-
-
-            // usort($json['shows'], function($a, $b) {
-            //     return $a['show_date'] <=> $b['show_date'];
-            // });
-
-            error_log( print_r($json,true) );
 
             // Check if tours exist
             if( count($json['shows']) > 0 && !empty($json['shows'][0]) ){
