@@ -196,21 +196,21 @@
 
         <div class="row stream-list  bounce-up">
             <h2>Stream</h2>
-            <div class="col-md-4 col-xs-6 bounce-up animation-element">
+            <div class="col-md-4 col-xs-4 bounce-up animation-element">
               <div class="subject">
                 <a target="_blank" href="https://music.apple.com/de/artist/puts-marie/217937086">
                   <img class="img-responsive" src="/assets/images/n_apple_music.png">
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-xs-6 bounce-up animation-element">
+            <div class="col-md-4 col-xs-4 bounce-up animation-element">
               <div class="subject">
                 <a target="_blank" href="https://open.spotify.com/artist/14h4AzYpNeMJh7HhHDx6gV">
                   <img class="img-responsive" src="/assets/images/n_spotify.png">
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-xs-6 bounce-up animation-element">
+            <div class="col-md-4 col-xs-4 bounce-up animation-element">
               <div class="subject">
                 <a target="_blank" href="https://www.deezer.com/de/artist/868984">
                   <img class="img-responsive" src="/assets/images/n_deezer.png">

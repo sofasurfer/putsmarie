@@ -323,4 +323,9 @@ a .fab{
     h2{
       font-size: 1.5rem!important;
     }
+
+
+    .stream-list img{
+        max-width: 100%;   
+    }
 }
