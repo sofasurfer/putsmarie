@@ -82,7 +82,7 @@
             $json = json_decode($content, true);
 
             // Check if tours exist
-            if( count($json['shows']) > 0 && !empty($json['shows'][0]) ){
+            if( !empty($json['shows']) && count($json['shows']) > 0 && !empty($json['shows'][0]) ){
               foreach($json['shows'] as $item) {
                 include 'tpl/tour-item.php';
               }    
