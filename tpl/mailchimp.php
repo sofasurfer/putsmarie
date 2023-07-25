@@ -1,7 +1,6 @@
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
-<h2>SORRY, no upcoming shows.</h2>
-<h3>Add your e-mail address below to get updates about new shows.</h3>
+<h3>Add your e-mail address below to get updates about PutsMarie.</h3>
 <form action="//sofasurfer.us14.list-manage.com/subscribe/post?u=5b8c7741aae17e223edeb640c&amp;id=ed2b003d6f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
     

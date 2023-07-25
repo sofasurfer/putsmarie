@@ -87,7 +87,7 @@
                 include 'tpl/tour-item.php';
               }    
             }else{
-              include 'tpl/mailchimp.php';
+                echo( "<tr><td><h2>SORRY, no upcoming shows.</h2></td></tr>" );
             }
             ?>
           </table>          
@@ -218,14 +218,12 @@
               </div>
             </div>   
         </div>
-        <!--div class="row stream-list">
+        <div class="row stream-list">
             <div class="col-md-12">
-                <h2>Buy</h2>
+                <h2>Newsletter</h2>
             </div>
-            <div class="col-md-4 col-xs-6"><a target="_blank" href="https://music.apple.com/ch/album/jo-sicher/1500271075?app=itunes&ign-mpt=uo%3D4"><img class="img-responsive" src="/assets/images/n_itunes.png"></a></div>
-            <div class="col-md-4 col-xs-6"><a target="_blank" href="https://play.google.com/store/music/album/Studeyeah_Jo_Sicher?id=Bprgxe6damfc4oai7x5sz4hp4du"><img class="img-responsive" src="/assets/images/n_google_play.png"></a></div>
-            <div class="col-md-4 col-xs-6"><a target="_blank" href="https://www.amazon.de/dp/B08546F5X4?tag=igroove0a-21"><img class="img-responsive" src="/assets/images/n_amazon.png"></a></div>    
-        </div-->
+            <?php include 'tpl/mailchimp.php'; ?>
+        </div>
 
     </div>
     <?php include 'tpl/footer.php'; ?>
