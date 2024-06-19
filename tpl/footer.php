@@ -2,8 +2,7 @@
             <div class="row">
               <div class="col-md-4">
                 <h2 class="no-padding">Booking</h2>
-                <p><a href="mailto:fabian@gladwemet.ch" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="For bookings and other inquiries" target="_blank">fabian@gladwemet.ch</a></p>
-                <p><a href="http://www.gladwemet.ch" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="For bookings and other inquiries" target="_blank">www.gladwemet.ch</a></p>
+                <p><a href="mailto:info@putsmarie.com" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="For bookings and other inquiries" target="_blank">info@putsmarie.com</a></p>
               </div>
               <div class="col-md-4">
                 <h2 class="no-padding">Music</h2>
