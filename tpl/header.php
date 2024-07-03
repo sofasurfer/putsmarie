@@ -25,5 +25,5 @@
 <body>
     <header class="jumbotron">
         <div class="pagetitle"><h1>PUTSMARIE</h1></div>
-        <img src="/assets/images/PutsMarieMusiqueImprovisee_01-02.png" class="img-responsive header" />
+        <img src="/assets/images/cover_2_2024.jpg" class="img-responsive header" />
     </header>
