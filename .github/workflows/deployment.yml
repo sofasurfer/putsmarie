@@ -21,6 +21,8 @@ jobs:
       - name: Sync files with rsync
         run: |
           rsync -avz --delete \
+            --exclude '.git' \
+            --exclude '.github' \
             -e "ssh -o StrictHostKeyChecking=no" \
             ./ \
             vemamuwo@sl1702.web.hostpoint.ch:/home/vemamuwo/www/putsmarie.com
