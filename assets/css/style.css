@@ -190,7 +190,7 @@ span.month{
     background-color: transparent;
 }
 
-.row.videos{
+.row.videos .col-md-3{
     padding:0;
 }
 
