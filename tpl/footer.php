@@ -115,6 +115,7 @@
         
         // This function is called when the IFrame Player API is ready
         function onYouTubeIframeAPIReady() {
+            console.log('Player ready');
             // Find all iframes with class 'youtube-player'
             var iframes = document.querySelectorAll('.youtube-player');
             
