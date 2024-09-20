@@ -1,6 +1,6 @@
     <?php include 'tpl/header.php'; ?>
     <div class="container-fluid ">
-        <div class="row">
+        <div class="row videos">
                 <h2>Videos</h2>
 
                 <div class="col-md-3">
