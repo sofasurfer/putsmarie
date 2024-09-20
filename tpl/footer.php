@@ -25,6 +25,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
 
 
     <!-- Piwik -->
@@ -105,6 +106,39 @@
 
         $window.on('scroll resize', check_if_in_view);
         $window.trigger('scroll');
+
+
+
+        // Video Player
+
+        var players = [];
+        
+        // This function is called when the IFrame Player API is ready
+        function onYouTubeIframeAPIReady() {
+            // Find all iframes with class 'youtube-player'
+            var iframes = document.querySelectorAll('.youtube-player');
+            
+            // Create a new YouTube player for each iframe and store in 'players' array
+            iframes.forEach(function(iframe, index) {
+                players[index] = new YT.Player(iframe, {
+                    events: {
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            });
+        }
+
+        // Function to pause other players when one starts playing
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING) {
+                players.forEach(function(player) {
+                    if (player !== event.target) {
+                        player.pauseVideo(); // Pause all other videos
+                    }
+                });
+            }
+        }
+        
 
     </script>
 </body>
