@@ -90,10 +90,11 @@
           <!--center><p style="margin-top: 50px; margin-bottom: 50px;"><a title="Show past dates." class="buy france" href="tours.php">Show Past Shows</a></p></center-->
         </div>
       </div>
-
+    </div>
+    <div class="container-fluid">
       <div class="row">
         <h2>Records</h2>
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/PutsMarieMusiqueImprovisee-front.png" alt="PUTS MARIE Musique improvisee" />
             <h3>PUTS MARIE Musique improvisee</h3>
@@ -104,7 +105,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/dramedupastis_tape.jpg" alt="Le Drame Du Pastis" />
             <h3>Le Drame Du Pastis</h3>
@@ -115,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/loveboat2.jpg" alt="Love Boat 2" />
             <h3>Love Boat 2</h3>
@@ -126,7 +127,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/catchingbadtemper_3.jpg" alt="Catching Bad Temper" />
             <h3>Catching Bad Temper</h3>
@@ -137,7 +138,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/masochI-II.jpg" alt="Masoch I-II" />
             <h3>Masoch I-II</h3>
@@ -148,7 +149,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/masochII.jpg" alt="Masoch II" />
             <h3>Masoch II</h3>
@@ -159,7 +160,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/masoch.jpg" alt="Masoch" />
             <h3>Masoch</h3>
@@ -171,7 +172,7 @@
             </div>
           </div>
         </div>        
-        <div class="col-md-4 bounce-up animation-element">
+        <div class="col-md-3 bounce-up animation-element">
           <div class="subject">
             <img class="img-responsive" src="/assets/images/pornostar.jpg" alt="Pornstar" />
             <h3>Pornstar</h3>
@@ -183,6 +184,8 @@
           </div>
         </div>          
       </div>
+    </div>
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <center><p style="margin-top: 50px;"><a title="Shop only for france" class="buy france" target="_blank" href=" http://www.wiseband.com/yo/shop.php?boutique=5501">Online shop france</a></p></center>
