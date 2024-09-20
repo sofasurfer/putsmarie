@@ -5,63 +5,63 @@
 
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/pWD_r9Znipk?si=YTGj3SMlTs6Dptso" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/pWD_r9Znipk?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
 
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/gyFLbviyUys?si=96MENjtxjSLA6VnG" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/gyFLbviyUys?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/IZfEbXRXt9c" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/IZfEbXRXt9c?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/96XuQZPov74" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/96XuQZPov74?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/6NiOX__IYKs" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/6NiOX__IYKs?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/jlN7E1X3mfQ" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/jlN7E1X3mfQ?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/mPgOG5Smb9o" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/mPgOG5Smb9o?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/M4LVn2MU6BA" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/M4LVn2MU6BA?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/Qmu2uKhRtls" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/Qmu2uKhRtls?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>       
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/OHWL14EQOcc?showinfo=0&iv_load_policy=3&controls=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/OHWL14EQOcc?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/4J2ZcZG891w?showinfo=0&iv_load_policy=3&controls=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/4J2ZcZG891w?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="youtube-player" src="https://www.youtube.com/embed/EkX5W7Qe6jA" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="youtube-player" src="https://www.youtube.com/embed/EkX5W7Qe6jA?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>
 

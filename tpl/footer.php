@@ -110,19 +110,23 @@
 
 
         // Video Player
-
         var players = [];
         
         // This function is called when the IFrame Player API is ready
         function onYouTubeIframeAPIReady() {
-            console.log('Player ready');
+
             // Find all iframes with class 'youtube-player'
             var iframes = document.querySelectorAll('.youtube-player');
             
             // Create a new YouTube player for each iframe and store in 'players' array
             iframes.forEach(function(iframe, index) {
+                console.log('VIDEO');
                 players[index] = new YT.Player(iframe, {
                     events: {
+                        'onReady': function(event) {
+                            // Store the initialized player instance when it is ready
+                            players[index] = event.target;
+                        },
                         'onStateChange': onPlayerStateChange
                     }
                 });
@@ -133,13 +137,12 @@
         function onPlayerStateChange(event) {
             if (event.data == YT.PlayerState.PLAYING) {
                 players.forEach(function(player) {
-                    if (player !== event.target) {
+                    if (player !== event.target && typeof player.pauseVideo === 'function') {
                         player.pauseVideo(); // Pause all other videos
                     }
                 });
             }
         }
-        
 
     </script>
 </body>
