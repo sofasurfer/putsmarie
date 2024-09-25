@@ -1,4 +1,29 @@
     <?php include 'tpl/header.php'; ?>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Tour dates</h2>
+          <table class="table table-hover" itemscope itemtype="http://schema.org/Event" >
+            <?php
+            $url = 'https://www.yagwud.com/cms/wp-admin/admin-ajax.php?action=events_list&bid=putsmarie';
+            $content = file_get_contents($url);
+            $json = json_decode($content, true);
+
+            // Check if tours exist
+            if( !empty($json['shows']) && count($json['shows']) > 0 && !empty($json['shows'][0]) ){
+              foreach($json['shows'] as $item) {
+                include 'tpl/tour-item.php';
+              }    
+            }else{
+                echo( "<tr><td><h2>SORRY, no upcoming shows.</h2></td></tr>" );
+            }
+            ?>
+          </table>          
+          <!--center><p style="margin-top: 50px; margin-bottom: 50px;"><a title="Show past dates." class="buy france" href="tours.php">Show Past Shows</a></p></center-->
+        </div>
+      </div>
+    </div>
     <div class="container-fluid ">
         <div class="row videos">
                 <h2>Videos</h2>
@@ -66,30 +91,6 @@
                 </div>
 
         </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Tour dates</h2>
-          <table class="table table-hover" itemscope itemtype="http://schema.org/Event" >
-            <?php
-            $url = 'https://www.yagwud.com/cms/wp-admin/admin-ajax.php?action=events_list&bid=putsmarie';
-            $content = file_get_contents($url);
-            $json = json_decode($content, true);
-
-            // Check if tours exist
-            if( !empty($json['shows']) && count($json['shows']) > 0 && !empty($json['shows'][0]) ){
-              foreach($json['shows'] as $item) {
-                include 'tpl/tour-item.php';
-              }    
-            }else{
-                echo( "<tr><td><h2>SORRY, no upcoming shows.</h2></td></tr>" );
-            }
-            ?>
-          </table>          
-          <!--center><p style="margin-top: 50px; margin-bottom: 50px;"><a title="Show past dates." class="buy france" href="tours.php">Show Past Shows</a></p></center-->
-        </div>
-      </div>
     </div>
     <div class="container-fluid">
       <div class="row">
