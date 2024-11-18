@@ -25,6 +25,6 @@
 <body>
     <header class="jumbotron">
         <div class="pagetitle"><h1>PUTSMARIE</h1></div>
-        <h2>OUR NEW ALBUM „PIGEONS, POLITICIANS & PIN UPS DURING THE ENDTIME OF MANKIND“ WILL BE OUT THIS FALL!</h2>
+        <h2>OUR NEW ALBUM „PIGEONS, POLITICIANS & PIN UPS DURING THE ENDTIME OF MANKIND“ IS OUT NOW!</h2>
         <img src="/assets/images/cover_2_2024.jpg" class="img-responsive header" />
     </header>
