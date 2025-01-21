@@ -23,6 +23,16 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+<nav>
+    <ul class="top-nav">
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#records">Records</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#stream">Stream</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+    </ul>
+</nav>
 <header class="jumbotron">
     <div class="pagetitle"><h1>PUTSMARIE</h1></div>
     <h2>OUR NEW ALBUM „PIGEONS, POLITICIANS & PIN UPS DURING THE ENDTIME OF MANKIND“ IS OUT NOW!</h2>
