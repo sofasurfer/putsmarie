@@ -57,6 +57,7 @@ a:hover{
     text-align: center !important;
     padding: 0px;
     margin: 0px;
+    margin-top:2rem;
     position:relative;
 }
 .jumbotron h1{
@@ -72,6 +73,25 @@ a:hover{
     -webkit-text-stroke-color: white;*/
 
 }
+nav{
+    z-index: 9999;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    padding-top:1rem;
+    background-color: black;
+}
+.top-nav li{
+    list-style: none;
+    display: inline-block;
+}
+.top-nav li a{
+    color:white;
+}
+.top-nav li a:hover{
+    text-decoration: underline;
+}
+
 .pagetitle{
 /*    position: absolute;
     top: 30px;*/

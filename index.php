@@ -1,6 +1,21 @@
 <?php include 'tpl/header.php'; ?>
-
 <div class="container">
+  <div class="row">
+    <h2>New Record</h2>
+    <div class="col-md-8 col-md-offset-2 text-center bounce-up animation-element">
+      <div class="subject">
+        <img class="img-responsive" src="/assets/images/pigeons_politicians_pinups_during_the_end_time_of_mankind.webp" alt="PUTS MARIE - pigeons, politicians & pinups during the end time of mankind" />
+        <h3>pigeons, politicians & pinups during the end time of mankind</h3>
+        <p>LP & Digital Download<br/>
+        20 Sept 2024</p>
+        <div class="order">
+          <a title="Buy : pigeons, politicians & pinups during the end time of mankind" class="buy" target="_blank" href="https://atomiumverlag.ch/puts-marie/">Buy now</a>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+<div id="tour" class="container">
   <div class="row">
     <div class="col-md-12">
       <h2>Tour dates</h2>
@@ -24,75 +39,7 @@
     </div>
   </div>
 </div>
-<div class="container-fluid ">
-    <div class="row videos">
-            <h2>Videos</h2>
-
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/pWD_r9Znipk?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/gyFLbviyUys?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/IZfEbXRXt9c?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/96XuQZPov74?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/6NiOX__IYKs?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/jlN7E1X3mfQ?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/mPgOG5Smb9o?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/M4LVn2MU6BA?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/Qmu2uKhRtls?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>       
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/OHWL14EQOcc?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/4J2ZcZG891w?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="youtube-player" src="https://www.youtube.com/embed/EkX5W7Qe6jA?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-
-    </div>
-</div>
-<div class="container">
+<div id="records" class="container">
   <div class="row">
     <h2>Records</h2>
     <div class="col-md-3 bounce-up animation-element">
@@ -199,6 +146,74 @@
     </div>          
   </div>
 </div>
+<div id="videos" class="container-fluid ">
+    <div class="row videos">
+            <h2>Videos</h2>
+
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/pWD_r9Znipk?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/gyFLbviyUys?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/IZfEbXRXt9c?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/96XuQZPov74?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/6NiOX__IYKs?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/jlN7E1X3mfQ?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/mPgOG5Smb9o?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/M4LVn2MU6BA?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/Qmu2uKhRtls?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>       
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/OHWL14EQOcc?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/4J2ZcZG891w?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="youtube-player" src="https://www.youtube.com/embed/EkX5W7Qe6jA?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+
+    </div>
+</div>
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -207,7 +222,7 @@
   </div>
 
 
-    <div class="row stream-list  bounce-up">
+    <div id="stream" class="row stream-list  bounce-up">
         <h2>Stream</h2>
         <div class="col-md-4 col-xs-4 bounce-up animation-element">
           <div class="subject">
@@ -234,7 +249,7 @@
 
 
 
-    <div class="row stream-list  bounce-up">
+  <div id="support" class="row stream-list  bounce-up">
     <h2>With the kind support of</h2>
     <div class="col-md-3 col-xs-6 bounce-up animation-element">
       <div class="subject">
@@ -273,14 +288,12 @@
     </div>
   </div>
 
-
-
-    <div class="row stream-list">
-        <div class="col-md-12">
-            <h2>Newsletter</h2>
-        </div>
-        <?php include 'tpl/mailchimp.php'; ?>
+  <div id="newsletter" class="row stream-list">
+    <div class="col-md-12">
+        <h2>Newsletter</h2>
     </div>
+    <?php include 'tpl/mailchimp.php'; ?>
+  </div>
 
 </div>
 <?php include 'tpl/footer.php'; ?>
