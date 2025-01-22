@@ -27,6 +27,34 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const sections = document.querySelectorAll(".section");
+            const navLinks = document.querySelectorAll(".top-nav a");
+
+            const observerOptions = {
+                root: null, // Uses viewport as root
+                rootMargin: "0px",
+                threshold: 0.5 // Trigger when 50% of the section is visible
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const activeSection = entry.target.id;
+                        navLinks.forEach(link => {
+                            link.classList.toggle(
+                                "active",
+                                link.getAttribute("href") === `#${activeSection}`
+                            );
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
 
     <!-- Piwik -->
     <script type="text/javascript">

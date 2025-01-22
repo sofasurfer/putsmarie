@@ -15,7 +15,7 @@
     </div>  
   </div>
 </div>
-<div id="tour" class="container">
+<div id="tour" class="container section">
   <div class="row">
     <div class="col-md-12">
       <h2>Tour dates</h2>
@@ -39,7 +39,7 @@
     </div>
   </div>
 </div>
-<div id="records" class="container">
+<div id="records" class="container section">
   <div class="row">
     <h2>Records</h2>
     <div class="col-md-3 bounce-up animation-element">
@@ -146,7 +146,7 @@
     </div>          
   </div>
 </div>
-<div id="videos" class="container-fluid ">
+<div id="videos" class="container-fluid  section">
     <div class="row videos">
             <h2>Videos</h2>
 
@@ -222,7 +222,7 @@
   </div>
 
 
-    <div id="stream" class="row stream-list  bounce-up">
+    <div id="stream" class="row stream-list  bounce-up section">
         <h2>Stream</h2>
         <div class="col-md-4 col-xs-4 bounce-up animation-element">
           <div class="subject">
@@ -249,7 +249,7 @@
 
 
 
-  <div id="support" class="row stream-list  bounce-up">
+  <div id="support" class="row stream-list  bounce-up section">
     <h2>With the kind support of</h2>
     <div class="col-md-3 col-xs-6 bounce-up animation-element">
       <div class="subject">
@@ -288,7 +288,7 @@
     </div>
   </div>
 
-  <div id="newsletter" class="row stream-list">
+  <div id="newsletter" class="row stream-list section">
     <div class="col-md-12">
         <h2>Newsletter</h2>
     </div>
