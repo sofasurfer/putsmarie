@@ -84,6 +84,9 @@ nav{
     padding-top:1rem;
     background-color: black;
 }
+.top-nav{
+    padding:0;
+}
 .top-nav li{
     list-style: none;
     display: inline-block;
@@ -91,6 +94,7 @@ nav{
 .top-nav li a{
     color:white;
 }
+.top-nav li a.active,
 .top-nav li a:hover{
     text-decoration: underline;
 }
