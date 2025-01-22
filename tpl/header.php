@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css?v=2.0">
+    <link rel="stylesheet" href="/assets/css/style.css?v=2.1">
 
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
@@ -29,8 +29,8 @@
         <li><a href="#records">Records</a></li>
         <li><a href="#videos">Videos</a></li>
         <li><a href="#stream">Stream</a></li>
-        <li><a href="#support">Support</a></li>
-        <li><a href="#newsletter">Newsletter</a></li>
+        <li class="hide-mobile"><a href="#support">Support</a></li>
+        <li class="hide-mobile"><a href="#newsletter">Newsletter</a></li>
     </ul>
 </nav>
 <header class="jumbotron">

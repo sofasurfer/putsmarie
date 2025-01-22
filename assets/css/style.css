@@ -73,6 +73,9 @@ a:hover{
     -webkit-text-stroke-color: white;*/
 
 }
+.hide-mobile{
+    display: block;
+}
 nav{
     z-index: 9999;
     top: 0;
@@ -320,6 +323,12 @@ a .fab{
     }  
 }
 @media (max-width: 768px) {
+    .jumbotron{
+        /* margin-top:4rem; */
+    }
+    .jumbotron h2{
+        padding-top:0px;
+    }
     table{
         border: none;
     }
@@ -347,7 +356,9 @@ a .fab{
       font-size: 1.5rem!important;
     }
 
-
+    .hide-mobile{
+        display: none!important;
+    }
     .stream-list img{
         max-width: 100%;   
     }
