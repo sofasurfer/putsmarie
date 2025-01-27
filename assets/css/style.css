@@ -367,4 +367,8 @@ a .fab{
     .stream-list img{
         max-width: 100%;   
     }
+
+    .no-padding-top{
+        margin-top: -5rem;
+    }
 }

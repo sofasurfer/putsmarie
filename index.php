@@ -1,5 +1,5 @@
 <?php include 'tpl/header.php'; ?>
-<div class="container">
+<div class="container no-padding-top">
   <div class="row">
     <h2>New Record</h2>
     <div class="col-md-8 col-md-offset-2 text-center bounce-up animation-element">
@@ -39,8 +39,11 @@
     </div>
   </div>
 </div>
-<div class="container-fluid"></div>
-  <img src="/assets/images/cover_2_2024.jpg" class="img-responsive header" />
+<div class="container-fluid">
+  <div class="row">
+    <h2></h2>
+    <img src="/assets/images/cover_2_2024.jpg" class="img-responsive header" />
+  </div>
 </div>
 <div id="records" class="container section">
   <div class="row">
