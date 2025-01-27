@@ -9,7 +9,7 @@
         <p>LP & Digital Download<br/>
         20 Sept 2024</p>
         <div class="order">
-          <a title="Buy : pigeons, politicians & pinups during the end time of mankind" class="buy" target="_blank" href="https://atomiumverlag.ch/puts-marie/">Buy now</a>
+          <a title="Buy Top: pigeons, politicians & pinups during the end time of mankind" class="buy" target="_blank" href="https://atomiumverlag.ch/puts-marie/">Buy now</a>
         </div>
       </div>
     </div>  
@@ -38,6 +38,9 @@
       <!--center><p style="margin-top: 50px; margin-bottom: 50px;"><a title="Show past dates." class="buy france" href="tours.php">Show Past Shows</a></p></center-->
     </div>
   </div>
+</div>
+<div class="container-fluid"></div>
+  <img src="/assets/images/cover_2_2024.jpg" class="img-responsive header" />
 </div>
 <div id="records" class="container section">
   <div class="row">
@@ -215,13 +218,6 @@
     </div>
 </div>
 <div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <center><p style="margin-top: 50px;"><a title="Shop only for france" class="buy france" target="_blank" href=" http://www.wiseband.com/yo/shop.php?boutique=5501">Online shop france</a></p></center>
-    </div>
-  </div>
-
-
     <div id="stream" class="row stream-list  bounce-up section">
         <h2>Stream</h2>
         <div class="col-md-4 col-xs-4 bounce-up animation-element">
@@ -296,4 +292,5 @@
   </div>
 
 </div>
+
 <?php include 'tpl/footer.php'; ?>
