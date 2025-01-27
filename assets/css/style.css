@@ -57,13 +57,14 @@ a:hover{
     text-align: center !important;
     padding: 0px;
     margin: 0px;
-    margin-top:2rem;
+    margin-top:4rem;
     position:relative;
+    background-color: transparent;
 }
 .jumbotron h1{
     color: black;
     font-family: fonttitle;
-    font-size: 5rem !important;
+    font-size: 6rem !important;
     padding: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -365,5 +366,9 @@ a .fab{
     }
     .stream-list img{
         max-width: 100%;   
+    }
+
+    .no-padding-top{
+        margin-top: -5rem;
     }
 }
