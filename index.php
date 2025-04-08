@@ -245,11 +245,11 @@
           </div>
         </div>   
     </div>
+</div>
+<div class="container">
 
-
-
+  <h2>With the kind support of*</h2>
   <div id="support" class="row stream-list  bounce-up section">
-    <h2>With the kind support of</h2>
     <div class="col-md-3 col-xs-6 bounce-up animation-element">
       <div class="subject">
         <a target="_blank" href="https://fondation-suisa.ch/">
@@ -278,10 +278,17 @@
         </a>
       </div>
     </div>
+    <div class="col-md-6 col-xs-6 bounce-up animation-element">
+      <div class="subject">
+        <a target="_blank" href="https://www.swisslos.ch">
+          <img class="img-responsive" src="/assets/images/logos/pro-helvetia.png">
+        </a>
+      </div>
+    </div>
     <div class="col-md-6 bounce-up animation-element">
       <div class="subject">
         <a target="_blank" href="https://www.ernst-goehner-stiftung.ch/index.php/de">
-          <img style="padding-top:50px;padding-bottom:50px;" class="img-responsive" src="/assets/images/logos/EGS_Schriftzug_blau.jpeg">
+          <img class="img-responsive" src="/assets/images/logos/EGS_Schriftzug_blau.jpeg">
         </a>
       </div>
     </div>
