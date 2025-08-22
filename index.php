@@ -292,6 +292,22 @@
         </a>
       </div>
     </div>
+    
+    <div class="col-md-6 bounce-up animation-element">
+      <div class="subject">
+        <a target="_blank" href="https://www.eda.admin.ch/seoul">
+          <img class="img-responsive" src="/assets/images/swiss_02.png">
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-md-6 bounce-up animation-element">
+      <div class="subject">
+        <a target="_blank" href="https://www.eda.admin.ch/countries/korea-republic/en/home/switzerland-and/culture.html">
+          <img class="img-responsive" src="/assets/images/SFK-logo.png">
+        </a>
+      </div>
+    </div>
   </div>
 
   <div id="newsletter" class="row stream-list section">
