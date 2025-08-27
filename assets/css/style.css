@@ -291,10 +291,10 @@ span.month{
 }
 
 .support-list a {
-    display: flex;               /* make the column a flex container */
-    justify-content: center;     /* center horizontally */
-    align-items: center;         /* center vertically */
-    height: 150px;               /* set a consistent height for vertical centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
 }
 
 .support-list img {
