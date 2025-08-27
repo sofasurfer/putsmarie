@@ -46,7 +46,7 @@ a{
     padding: 4px;
     cursor: pointer;
     color: black;
-    border-bottom: solid 4px black;
+    /* border-bottom: solid 4px black; */
 }
 a:hover{
     color: white;
@@ -280,13 +280,25 @@ span.month{
 
 
 
-
+.support-list a,
+.support-list a:hover,
 .stream-list a,
 .stream-list a:hover{
   padding: 0px;
   border: 0px;
   border-bottom: none;
   background-color: transparent!important;
+}
+
+.support-list a {
+    display: flex;               /* make the column a flex container */
+    justify-content: center;     /* center horizontally */
+    align-items: center;         /* center vertically */
+    height: 150px;               /* set a consistent height for vertical centering */
+}
+
+.support-list img {
+    max-height: 100px;
 }
 
 
