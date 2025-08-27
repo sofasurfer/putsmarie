@@ -16,7 +16,10 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="/assets/css/style.css?v=2.1">
 
     <meta name="msapplication-TileColor" content="#da532c">
@@ -26,7 +29,7 @@
 <nav>
     <ul class="top-nav">
         <li><a href="#tour">Tour</a></li>
-        <li><a href="#records">Records</a></li>
+        <li><a href="#shop">Shop</a></li>
         <li><a href="#videos">Videos</a></li>
         <li><a href="#stream">Stream</a></li>
         <li class="hide-mobile"><a href="#support">Support</a></li>
