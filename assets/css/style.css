@@ -290,16 +290,16 @@ span.month{
   background-color: transparent!important;
 }
 
-.support-list a {
+/* .support-list a {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
-}
+} */
 
-.support-list img {
+/* .support-list img {
     max-height: 100px;
-}
+} */
 
 
 .stream-list img{
